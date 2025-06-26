@@ -1,0 +1,9 @@
+#Ignorar credenciales.
+credenciales.txt
+#Ignorar archivos y carpetas de python.
+__pycache__/
+*.pyc
+#Ignorar carpetas de entorno virtual  (En caso de.)
+venv/
+env/
+.venv/

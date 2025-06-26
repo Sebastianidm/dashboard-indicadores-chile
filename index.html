@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Datos Económicos</title> 
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <h1>Indicadores Económicos de Chile</h1>
+
+    <div class="controls">
+        <button id="btnDolar">Dólar</button>
+        <button id="btnUf">UF</button>
+        <button id="btnEuro">Euro</button>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <script defer src="script.js"></script>
+     <footer>
+        <p>
+            <strong>Tecnologías Utilizadas:</strong><br>
+            Back-End: Python, FastAPI, Uvicorn | Front-End: HTML5, CSS3, JavaScript<br>
+            Datos: Pandas, bcchapi | Gráficos: Chart.js
+        </p>
+        <p><strong>Sebastian Díaz M (desarrollador)</strong></p>
+    </footer>
+</body>
+</html>
