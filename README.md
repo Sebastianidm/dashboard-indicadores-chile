@@ -30,7 +30,6 @@ Aplicación web Full-Stack que extrae, procesa y visualiza indicadores económic
     ```bash
     pip install -r requirements.txt
     ```
-    *(Nota: Aún no hemos creado este archivo, lo haremos después si es necesario, o puedes listar las librerías a instalar: `pip install "fastapi[all]" pandas bcchapi`)*
 
 3.  **Crear archivo de credenciales:**
     Crea un archivo llamado `credenciales.txt` en la raíz del proyecto. Basándote en `credenciales.txt.example`, añade tu usuario y contraseña de la API del Banco Central en dos líneas separadas.
