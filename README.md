@@ -4,7 +4,7 @@
 
 Aplicación web Full-Stack que extrae, procesa y visualiza indicadores económicos clave de Chile (Dólar, UF, Euro) en un dashboard interactivo. El proyecto demuestra un ciclo de vida de datos completo, desde la fuente hasta la visualización.
 
-**Enlace a la aplicación en vivo:** [Enlace se añadirá cuando se despliegue en Azure]
+
 
 ## Características principales
 - **Visualización interactiva:** Gráfico de líneas que permite al usuario cambiar dinámicamente entre diferentes indicadores.
