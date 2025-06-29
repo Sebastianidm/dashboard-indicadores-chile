@@ -1,9 +1,16 @@
-#Ignorar credenciales.
+# Ignorar archivo de credenciales
 credenciales.txt
-#Ignorar archivos y carpetas de python.
+
+# Ignorar carpetas de caché de Python
 __pycache__/
+
+# Ignorar archivos compilados de Python
 *.pyc
-#Ignorar carpetas de entorno virtual  (En caso de.)
+
+# Ignorar carpetas de entornos virtuales
 venv/
 env/
 .venv/
+
+# Ignorar carpeta de configuración local de Azure CLI
+.azure/
